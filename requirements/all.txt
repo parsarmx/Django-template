@@ -14,8 +14,12 @@ black==22.6.0
     # via -r dev.in
 build==1.2.2.post1
     # via pip-tools
+certifi==2025.10.5
+    # via requests
 cffi==1.17.1
     # via argon2-cffi-bindings
+charset-normalizer==3.4.3
+    # via requests
 click==8.1.8
     # via
     #   black
@@ -42,6 +46,8 @@ flake8==4.0.1
     # via -r dev.in
 freezegun==1.5.1
     # via -r dev.in
+idna==3.10
+    # via requests
 isort==5.10.1
     # via -r dev.in
 mccabe==0.6.1
@@ -84,6 +90,8 @@ python-dotenv==1.0.1
     # via -r common.in
 redis==5.2.1
     # via django-redis
+requests==2.32.5
+    # via -r common.in
 six==1.17.0
     # via python-dateutil
 sqlparse==0.5.3
@@ -96,6 +104,8 @@ typing-extensions==4.12.2
     #   -r common.in
     #   faker
     #   psycopg-pool
+urllib3==2.5.0
+    # via requests
 wheel==0.45.1
     # via pip-tools
 
